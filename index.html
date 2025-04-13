@@ -10,19 +10,31 @@
       text-align: center;
       padding: 30px;
       margin: 0;
-      background-color: #f9f9f9;
-      color: #2e2e2e;
+      background: linear-gradient(to right, #fdfbfb, #ebedee); /* Modern subtle gradient */
+      color: #2c3e50;
     }
 
     h1 {
       font-size: 2rem;
-      color: #2c3e50;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       line-height: 1.4;
     }
 
     .spacer {
       height: 20px;
+    }
+
+    .welcome {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+      color: #34495e;
+    }
+
+    .name-line {
+      font-size: 2.2rem;
+      color: #16a085;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
 
     .subtitle {
@@ -39,14 +51,28 @@
       margin-bottom: 30px;
     }
 
+    .powered-by {
+      font-size: 0.95rem;
+      color: #95a5a6;
+      margin-top: 20px;
+    }
+
     footer {
       font-size: 0.9rem;
       color: #7f8c8d;
-      margin-top: 40px;
+      margin-top: 10px;
     }
 
     @media (min-width: 768px) {
       h1 {
+        font-size: 2.8rem;
+      }
+
+      .welcome {
+        font-size: 2.2rem;
+      }
+
+      .name-line {
         font-size: 2.8rem;
       }
 
@@ -61,12 +87,14 @@
 
   <div class="spacer"></div>
 
-  <h1>Welcome to <strong style="color: #1abc9c;">Samuel Aravinth's</strong> Digital Space !!</h1>
+  <div class="welcome">Welcome to</div>
+  <div class="name-line">Samuel Aravinth's Digital Space</div>
 
   <div class="subtitle">A flavorful journey into code, creativity, and culture 🍛💻</div>
   
   <img src="mutton_kuskava.jpg" alt="Mutton Kuskava!">
 
+  <div class="powered-by">Powered by ChatGPT</div>
   <footer>© 2025 Samuel Aravinth. All rights reserved.</footer>
 </body>
 </html>
